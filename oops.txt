@@ -1,0 +1,29 @@
+Objects: Objects are the fundamental building blocks of OOP in JavaScript. They represent entities in the real world, with properties that describe their characteristics and methods that describe their behavior.
+
+Classes: Classes provide a blueprint for creating objects. They define properties and methods that will be shared by all instances of the class. Classes are used to create new objects that have the same characteristics and behavior as other objects of the same class.
+
+Constructors: Constructors are special functions that are used to create new instances of a class. They typically set initial values for object properties and may perform other setup tasks.
+
+Properties: Properties are the data values associated with an object. They can be accessed and modified using dot notation or square bracket notation.
+
+Methods: Methods are functions that are associated with an object. They can be called on that object and can access its properties.
+
+Encapsulation: Encapsulation is the practice of bundling data and methods that operate on that data together within an object, and controlling access to that data. This helps to protect the data from unwanted access or modification.
+
+Inheritance: Inheritance allows you to create a new class that is a modified version of an existing class. The new class inherits all of the properties and methods of the parent class, and can add or override them as needed. Inheritance allows you to reuse code and create a hierarchy of classes.
+
+Polymorphism: Polymorphism refers to the ability of objects to take on multiple forms. In JavaScript, this is often achieved through method overloading or using the "this" keyword to refer to different objects depending on the context.
+
+Abstraction: Abstraction refers to the process of focusing on the essential features of an object, while ignoring the details that are not important. This can help make code more reusable and easier to understand.
+
+Getters and setters: Getters and setters are methods that allow you to control access to an object's properties. A getter is a method that retrieves the value of a property, while a setter is a method that sets the value of a property. Getters and setters are often used to enforce data validation and encapsulation.
+
+Composition: Composition is a way to build complex objects by combining smaller, simpler objects. This can help make code more modular and easier to maintain.
+
+Mixins: A mixin is a way to add behavior to an object without creating a new class. Mixins are often used to add functionality to multiple classes, or to provide reusable code that can be shared across different parts of an application.
+
+Method chaining: Method chaining is a programming technique where multiple methods are called on an object in a single statement, with each method modifying the object and returning it as a new object. This can make code more concise and readable.
+
+Interfaces: An interface is a contract that defines the methods and properties that a class must implement. Interfaces can help ensure that objects behave as expected and can be used interchangeably in code.
+
+Singleton pattern: The singleton pattern is a design pattern that restricts the instantiation of a class to a single instance and provides a global point of access to that instance. This can be useful when you need to ensure that there is only one instance of a particular object in your application.
