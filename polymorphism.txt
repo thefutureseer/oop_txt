@@ -1,4 +1,5 @@
 Javascript vs Python
+While both JavaScript and Python are object-oriented languages that support polymorphism, there are some differences in how polymorphism is achieved in each language.
 
 
 JAVASCRIPT:
@@ -38,4 +39,17 @@ in its superclass. When a method is called on an object, the method implemented 
 
 In Python, polymorphism allows for more flexible and modular code design by enabling objects to behave in multiple ways depending
 on their context or usage. It is an essential concept for creating reusable and maintainable code in OOP.
+
+
+Javascript vs Python
+
+Both languages support both static and dynamic polymorphism. In static polymorphism, 
+different methods with the same name can be defined in a class with different 
+parameter lists, allowing the correct method to be selected at compile time. 
+In dynamic polymorphism, the behavior of an object can be changed at runtime by 
+modifying its properties and methods.
+
+All the while JavaScript achieves polymorphism through prototypal inheritance 
+and Python achieves it through class inheritance and method overriding, both 
+languages support polymorphism and allow for dynamic and static polymorphism.
 
