@@ -1,0 +1,25 @@
+Objects:
+
+JavaScript vs Python
+
+In both JavaScript & Python everything is an object, including functions, arrays, and even null and undefined.
+
+Objects are a fundamental building block that allows for the creation of complex and modular code. However, 
+there are some differences in the way objects are implemented and used in each language.
+
+One of the main differences is that JavaScript is a prototype-based language, while Python is a 
+class-based language. This means that in JavaScript, objects are created by inheriting from other 
+objects, while in Python, objects are created from a class definition. In JavaScript, objects are 
+created using constructor functions or classes, while in Python, objects are created using the class keyword.
+
+Another difference is that in JavaScript, objects are dynamic and can have new properties and methods added 
+to them at runtime, while in Python, objects are more static and the structure of an object is defined by 
+its class definition.
+
+In terms of syntax, there are also some differences between the two languages. For example, in JavaScript, 
+object properties are accessed using dot notation (object.property), while in Python, object properties are 
+accessed using the attribute syntax (object.attribute).
+
+Despite these differences, 
+the basic principles of using objects as building blocks are similar in both languages. 
+Objects can be used to encapsulate data and behavior, improve code organization and reuse, and create complex systems with modular code.
