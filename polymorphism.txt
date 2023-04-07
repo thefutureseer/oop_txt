@@ -1,0 +1,41 @@
+Javascript vs Python
+
+
+JAVASCRIPT:
+Polymorphism, 
+ a core concept in object-oriented programming (OOP) that refers to the ability of objects to take on different forms or behaviors. 
+ 
+ In JavaScript, polymorphism is achieved through the use of prototypal inheritance.
+
+JavaScript is a prototype-based language, which means that objects can inherit properties and methods directly from other objects. 
+This inheritance mechanism allows for polymorphism because objects can share the same interface (i.e., have the same methods and 
+properties) while implementing those methods in different ways.
+
+JavaScript's dynamic nature also allows for runtime polymorphism. This means that the behavior of an object can be changed at 
+runtime by modifying its properties and methods.
+
+For example, consider a simple Shape object with a draw() method. The Shape object can be inherited by other objects, such as a 
+Circle object and a Square object. Both the Circle and Square objects can have their own implementations of the draw() method, 
+which allows them to draw themselves in different ways while still being treated as Shape objects.
+
+
+VS.
+
+
+PYTHON: 
+Polymorphism,
+ a core concept in object-oriented programming (OOP) that refers to the ability of objects to take on different forms or behaviors. 
+ In Python, polymorphism allows different objects to be used interchangeably even if they have different data types or classes.
+
+There are two main types of polymorphism in Python: static polymorphism (also known as compile-time polymorphism) and dynamic 
+polymorphism (also known as run-time polymorphism).
+
+Static polymorphism is achieved through method overloading, where multiple methods with the same name but different parameters 
+are defined in a class. The compiler determines which method to call based on the number and types of arguments passed in.
+
+Dynamic polymorphism, on the other hand, is achieved through method overriding, where a subclass overrides a method defined 
+in its superclass. When a method is called on an object, the method implemented in the subclass is called instead of the method in the superclass.
+
+In Python, polymorphism allows for more flexible and modular code design by enabling objects to behave in multiple ways depending
+on their context or usage. It is an essential concept for creating reusable and maintainable code in OOP.
+
