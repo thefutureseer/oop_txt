@@ -1,10 +1,18 @@
-Objects: Objects are the fundamental building blocks of OOP in JavaScript. They represent entities in the real world, with properties that describe their characteristics and methods that describe their behavior.
+Objects: 
+Objects are the fundamental building blocks of OOP in JavaScript. They represent entities in the real world, 
+with properties that describe their characteristics and methods that describe their behavior.
 
-Classes: Classes provide a blueprint for creating objects. They define properties and methods that will be shared by all instances of the class. Classes are used to create new objects that have the same characteristics and behavior as other objects of the same class.
+Classes: 
+Classes provide a blueprint for creating objects. They define properties and methods that will be shared 
+by all instances of the class. Classes are used to create new objects that have the same characteristics 
+and behavior as other objects of the same class.
 
-Constructors: Constructors are special functions that are used to create new instances of a class. They typically set initial values for object properties and may perform other setup tasks.
+Constructors: 
+Constructors are special functions that are used to create new instances of a class. They typically set 
+initial values for object properties and may perform other setup tasks.
 
-Properties: Properties are the data values associated with an object. They can be accessed and modified using dot notation or square bracket notation.
+Properties: 
+Properties are the data values associated with an object. They can be accessed and modified using dot notation or square bracket notation.
 
 Methods: Methods are functions that are associated with an object. They can be called on that object and can access its properties.
 
