@@ -1,14 +1,95 @@
-OOP in JS
+OOP (object oriented programming) in JS
+In an effort to show the distinct difference of Class and object
+heres a side-by-side comparison of objects and classes:
+
+| Objects                            | Classes                                              |
+|------------------------------------|------------------------------------------------------|
+| Instances of classes               | Blueprint or template for creating objects           |
+| Have their own identity            | Define the structure and behavior of objects         |
+| Created at runtime                 | Used to create multiple objects with shared features |
+| Interact with each other           | Provide a mechanism for code reuse                   |
+| Encapsulate data and behavior      | Can have relationships with other classes            |
+
+In short, objects 
+are instances of classes, representing specific entities with their own unique 
+characteristics and behavior. 
+Classes, 
+on the other hand, define the structure and behavior of objects and serve as 
+blueprints for creating multiple objects with shared attributes and behavior.
+
+Objects are the building blocks of OOP systems, 
+and they allow for the modeling of real-world 
+entities, concepts, or abstract concepts in 
+software applications. By creating objects 
+and defining their interactions, OOP provides 
+a powerful way to structure and organize code, 
+promoting modularity, reusability, and 
+maintainability.
 
 Objects: 
-Objects are the fundamental building 
-blocks of OOP in JavaScript. They 
-represent entities in the real world, 
-with properties that describe their 
-characteristics and methods that 
-describe their behavior.
+  Objects are the fundamental building 
+  blocks of OOP in JavaScript. They 
+  represent entities in the real world. 
+  It is a runtime entity that encapsulates 
+  both data (attributes or properties) and 
+  behavior (methods or functions) into a 
+  single entity. Objects are created based 
+  on the blueprint or template provided by 
+  a class.
+
+    Here are some key characteristics of objects:
+
+    Identity:
+      Each object has a unique identity, distinguishing 
+      it from other objects. This identity is typically 
+      represented by a memory address or a reference.
+
+    State: 
+      Objects have a state, which is defined by the
+      values of their attributes or properties. The
+      state represents the data associated with an 
+      object at a particular point in time.
+
+    Behavior: 
+      Objects can exhibit behavior by performing 
+      operations or executing methods defined in 
+      their class. Methods allow objects to manipulate 
+      their own data or interact with other objects.
+
+    Interactions: 
+      Objects can interact with each other by exchanging 
+      messages, invoking methods on other objects, and 
+      sharing information. These interactions enable 
+      collaboration and the accomplishment of tasks 
+      in an OOP system.
+
+    Encapsulation:
+      Objects encapsulate data and behavior together,
+      providing a level of abstraction and hiding
+      internal implementation details. Encapsulation
+      allows for data protection and controlled access
+      through well-defined interfaces.Encapsulation is 
+      the practice of bundling data and methods that 
+      operate on that data together within an object, 
+      and controlling access to that data. This helps 
+      to protect the data from unwanted access or 
+      modification.
+
+    Relationship: 
+      Objects can have relationships with other objects, 
+      such as composition, aggregation, or inheritance. 
+      These relationships define how objects are connected 
+      and how they can collaborate.
+
 
 Classes: 
+Classes are a fundamental concept in OOP 
+and serve as a foundation for creating 
+objects and organizing code. They provide 
+a structured and modular approach to software 
+development, promoting code reuse, maintainability, 
+and scalability.
+
 Classes provide a blueprint for creating
 objects. They define properties and methods
 that will be shared by all instances of the 
@@ -16,14 +97,58 @@ class. Classes are used to create new objects
 that have the same characteristics and behavior 
 as other objects of the same class.
 
-Inheritance: 
-Inheritance allows you to create a new class 
-that is a modified version of an existing class. 
-The new class inherits all of the properties and 
-methods of the parent class, and can add or 
-override them as needed. Inheritance allows 
-you to reuse code and create a hierarchy of 
-classes.
+Here are some key points about classes:
+
+Definition: 
+A class is defined using the class keyword, 
+followed by the class name. It encapsulates 
+data (in the form of attributes or properties) 
+and behavior (in the form of methods or 
+functions) into a single entity.
+
+Attributes: 
+Attributes represent the state or characteristics 
+of objects. They are defined as variables within 
+the class and store specific values that describe 
+the object's properties.
+
+Methods: 
+Methods define the behavior or actions that objects 
+can perform. They are functions defined within the 
+class and operate on the object's attributes or 
+perform specific tasks.
+
+Instantiation: Objects or instances of a class are created through a process called instantiation. When an object is instantiated, memory is allocated to store its attributes, and the object inherits the structure and behavior defined in the class.
+
+Inheritance: Inheritance allows the creation of new classes (derived classes or subclasses) based on existing classes (base classes or superclasses). The derived class inherits attributes and methods from the base class and can add its own attributes and methods or override the inherited ones.
+
+**
+Encapsulation: Encapsulation is the principle of bundling data and methods within a class, hiding internal implementation details and providing a public interface for interacting with the object. It helps in achieving data abstraction and information hiding.
+
+Polymorphism: Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables the use of a single interface to represent multiple types, providing flexibility and extensibility in code design.
+
+Abstraction: Abstraction refers to the process of simplifying complex systems by breaking them down into manageable and modular units. Classes provide abstraction by defining a blueprint with relevant attributes and methods, while hiding unnecessary implementation details.
+
+Class Relationships: Classes can have various relationships with each other, such as association, aggregation, or composition. These relationships define how objects of different classes interact and collaborate.
+
+
+
+
+    Inheritance: 
+    Inheritance allows you to create a new class 
+    that is a modified version of an existing class. 
+    The new class inherits all of the properties and 
+    methods of the parent class, and can add or 
+    override them as needed. Inheritance allows 
+    you to reuse code and create a hierarchy of 
+    classes.
+
+    Polymorphism: 
+    Polymorphism refers to the ability of objects 
+    to take on multiple forms. In JavaScript, this 
+    is often achieved through method overloading or 
+    using the "this" keyword to refer to different 
+    objects depending on the context.
 
 Constructors: 
 Constructors are special functions that are
@@ -36,14 +161,11 @@ Properties are the data values associated with
 an object. They can be accessed and modified 
 using dot notation or square bracket notation.
 
+**
 Methods: 
 Methods are functions that are associated with 
 an object. They can be called on that object 
 and can access its properties.
-
-Encapsulation: Encapsulation is the practice of bundling data and methods that operate on that data together within an object, and controlling access to that data. This helps to protect the data from unwanted access or modification.
-
-Polymorphism: Polymorphism refers to the ability of objects to take on multiple forms. In JavaScript, this is often achieved through method overloading or using the "this" keyword to refer to different objects depending on the context.
 
 Abstraction: Abstraction refers to the process of focusing on the essential features of an object, while ignoring the details that are not important. This can help make code more reusable and easier to understand.
 
